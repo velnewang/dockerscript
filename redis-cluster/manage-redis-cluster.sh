@@ -21,7 +21,7 @@ if test -f ${CONFIG_PRIVATE_SH}; then
 	. ${CONFIG_PRIVATE_SH}
 fi
 
-
+# Command
 PORT_END=$((PORT_START+NODES-1))
 PORTS=`seq ${PORT_START} ${PORT_END}`
 case "$1" in
@@ -85,3 +85,4 @@ case "$1" in
 		exit 1
 esac
 
+# change master to master_host='127.0.0.1',master_user='root',master_password='mypassword',master_port=33062, master_log_file='mysql-bin.000003',master_log_pos=155; 
