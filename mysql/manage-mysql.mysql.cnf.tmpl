@@ -1,0 +1,14 @@
+[mysqld]
+skip-host-cache
+skip-name-resolve
+
+character-set-server = "utf8mb4"
+default-time-zone = "+8:00"
+default-storage-engine = "INNODB"
+innodb_buffer_pool_size = 32M
+performance_schema = OFF
+
+server_id = ${SERVER_ID}
+log-bin = mysql-bin
+relay-log = relaylog
+log-slave-updates = true
