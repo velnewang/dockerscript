@@ -1,0 +1,16 @@
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+mysql               8.0.16              d72169616e20        8 months ago        443MB
+mysql               latest              d72169616e20        8 months ago        443MB
+node                8-alpine            7d3f8b084f9f        8 months ago        66.7MB
+node                8.16.0-alpine       7d3f8b084f9f        8 months ago        66.7MB
+ruby                2.6.3-alpine        1acb824ff4cd        8 months ago        50.9MB
+ruby                alpine              1acb824ff4cd        8 months ago        50.9MB
+nginx               1.15.12-alpine      0be75340bd9b        8 months ago        16.1MB
+nginx               alpine              0be75340bd9b        8 months ago        16.1MB
+openjdk             8-alpine            3675b9f543c5        8 months ago        105MB
+openjdk             8u201-alpine        3675b9f543c5        8 months ago        105MB
+redis               5.0.4-alpine        c8eda26fcdab        8 months ago        50.9MB
+redis               alpine              c8eda26fcdab        8 months ago        50.9MB
+alpine              3.9                 cdf98d1859c1        8 months ago        5.53MB
+alpine              latest              cdf98d1859c1        8 months ago        5.53MB
+debian              stretch-slim        c08899734c03        9 months ago        55.3MB
