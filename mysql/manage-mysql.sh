@@ -1,9 +1,9 @@
 #!/bin/sh
 
 # Setting
-DOCKER_DATA_DIR=/dockerdata
+DOCKER_DATA_DIR=/root/gitted/dockerscript
 MYSQL_ROOT_PASSWORD=mypassword
-MYSQL_DOCKER_IMAGE=mysql:8.0.16
+MYSQL_DOCKER_IMAGE=mysql:8.0.19
 MYSQL_ROOT_HOST=%
 PORT_START=33061
 NODES=2
